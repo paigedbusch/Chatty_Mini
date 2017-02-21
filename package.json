@@ -1,0 +1,24 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "'Chatty Mini-Project'",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigedbusch/Chatty_Mini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigedbusch/Chatty_Mini/issues"
+  },
+  "homepage": "https://github.com/paigedbusch/Chatty_Mini#readme"
+}
