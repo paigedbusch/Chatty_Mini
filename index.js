@@ -13,8 +13,11 @@ app.get('/messages', function(req, res, next) {
 });
 
 app.post('/messages', function(req, res, next) {
-    console.log(req.body);
-    messages.push({ message: req.body.message, time: new Date() });
+    messages.push({ 
+        message: req.body.message.message, 
+        time: new Date(),
+        user:  req.body.message.user
+    });
     res.status(200).json({ messages: messages });
 });
 
